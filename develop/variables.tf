@@ -7,14 +7,14 @@ variable "environment" {
 variable "new_project_name" {
 	  description = "Name of the new project from Terraform"
 	  type        = string
-    default     = "my-first-tf-project"
+    default     = "my-tf-project-name-009"
 }
 
 
 variable "new_project_team_name" {
 	  description = "Team name assigned from Terraform"
 	  type        = string
-    default     = "backend-team"
+    default     = "backend-team-009"
 }
 
 variable "requested_user" {
