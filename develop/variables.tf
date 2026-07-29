@@ -7,14 +7,14 @@ variable "environment" {
 variable "new_project_name" {
 	  description = "Name of the new project from Terraform"
 	  type        = string
-    default     = "my-first-tf-project"
+    default     = "my-tf-project-name-010"
 }
 
 
 variable "new_project_team_name" {
 	  description = "Team name assigned from Terraform"
 	  type        = string
-    default     = "backend-team"
+    default     = "backend-team-010"
 }
 
 variable "requested_user" {
@@ -41,3 +41,9 @@ variable "pwd" {
   sensitive   = true
 }
 
+
+variable "token" {
+  type        = string
+  description = "The token for the cluster "
+  sensitive   = true
+}
