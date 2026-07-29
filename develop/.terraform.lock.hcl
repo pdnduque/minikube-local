@@ -20,3 +20,25 @@ provider "registry.terraform.io/hashicorp/kubernetes" {
     "zh:faf23e45f0090eef8ba28a8aac7ec5d4fdf11a36c40a8d286304567d71c1e7db",
   ]
 }
+
+provider "registry.terraform.io/llomgui/openshift" {
+  version     = "1.1.0"
+  constraints = "1.1.0"
+  hashes = [
+    "h1:p47rumYv0r5h6/21HSJt3CmiIdNaiMoUyx4lV+ScV0I=",
+    "zh:080141f0fba774acd92fc304c80ddbafe8af6a3d53f2011a252c147e64fa5f4b",
+    "zh:1cac2daedd11db7282139b76f1cf40754b9a8f3b0817f8e2695ab6ce3ade04c0",
+    "zh:1ce0e03c93670692f957e23710e7df816710b927cecd66feefdcca366085ca15",
+    "zh:2da1eb1216b0521ddc9d32bd145c09e93c7446f517ab18661bf2464defa549d5",
+    "zh:2f085a9d4c9b0a34102b9627071b2e8fd5ecd5feb7a5aebb4b78f909d55929cb",
+    "zh:33553910371918172a529f5213ca8d1c48e3d0064efdec0865f774d41016e59b",
+    "zh:69cf49909d81904648e4d6b98e44031ac4e50c31d0611fa61f0615f6db0b3b5c",
+    "zh:6ac1cd168927a05ace5badccacf10577c5d019ede2b0e021aaaa81b33641a35a",
+    "zh:85bf6851dc1a7ff447be6bacdddf87b44fb3069e082569644b33a39c14bb6a02",
+    "zh:88fa664bc7c6ab5f071bca7fa811318df691cc63aa71efc843e164a215bd884e",
+    "zh:8f8c6bcd27b7a662f124bd915c5a1f07bbaf11157b6d791b38686b1289f631aa",
+    "zh:af90b05d8361f35531862b24070759f984ecfca2e3cb7a9f52a91cd28e1f995d",
+    "zh:e8f89041cd76b5845fc3fd0dc6594839f55910ce9ea27300c7bcc942a283071b",
+    "zh:edb2f38965775b7a0532fa5992841722b18161b2888e25d3a49c666c5090d8cf",
+  ]
+}
