@@ -23,3 +23,21 @@ variable "requested_user" {
   default     = "developer"
 }
 
+
+variable "hostname" {
+  type    = string
+  default = "default-value"
+}
+
+variable "usr" {
+  type        = string
+  description = "The username for the cluster"
+  sensitive   = true
+}
+
+variable "pwd" {
+  type        = string
+  description = "The password for the cluster "
+  sensitive   = true
+}
+
