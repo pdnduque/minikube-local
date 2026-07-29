@@ -1,15 +1,19 @@
 terraform {
-  required_version = ">= 1.0.0"
   required_providers {
-    kubernetes = {
-      source  = "hashicorp/kubernetes"
-      version = "~> 2.0"
+    openshift = {
+      source  = "llomgui/openshift"
+      version = "1.1.0"
     }
   }
 }
 
-provider "kubernetes" {
-  config_path = "~/.kube/config"
+provider "openshift" {
+  load_config_file = "false"
+
+  host = 
+
+  username = 
+  password = 
 }
 
 resource "kubernetes_namespace" "openshift_project" {
