@@ -10,7 +10,7 @@ terraform {
 provider "openshift" {
   insecure = true
 
-  token = "sha256~kBkJQ9IjLdKLlRVGfcROjEdYCferxeAAEofm2hyv1RY"
+  token = var.token
 
 }
 
